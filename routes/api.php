@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\HarvestController;
-use App\Http\Controllers\Api\SalesController;
 use App\Models\Product;
+use App\Http\Controllers\HarvestController;
+use App\Http\Controllers\SalesController;
 
 Route::get('/products', function() {
     return response()->json([
